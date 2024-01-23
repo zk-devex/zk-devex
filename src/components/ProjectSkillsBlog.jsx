@@ -1,13 +1,17 @@
 "use client";
 
-import Link from "next/link";
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import { mainDB } from "@/config/manuDB";
 
 function ProjectSkillsBlog() {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
-    <div className="m-10 p-5  grid  text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+    <div className="m-10 p-5 y  grid  text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
       {mainDB.map((item, index) => (
         <div
           key={item.name}
@@ -15,15 +19,21 @@ function ProjectSkillsBlog() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Link href={item.link} className={`mb-3 text-2xl font-semibold`}>
+          {/* <Link to={item.id}  smooth={true} duration={500} >
+            {item.name}
+     
+          </Link> */}
+
+          <Link
+            className={`mb-3 text-2xl font-semibold`}
+            to={item.id}
+            smooth={true}
+            duration={500}
+          >
             {item.name}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
-
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              {item.title}
-            </p>
           </Link>
         </div>
       ))}
