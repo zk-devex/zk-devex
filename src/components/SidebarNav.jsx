@@ -18,7 +18,7 @@ const SidebarNav = () => {
   ];
 
   return (
-    <div className="sm:hidden md:hidden lg:hidden">
+    <div className="">
       
     
       
