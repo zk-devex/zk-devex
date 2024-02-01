@@ -5,7 +5,7 @@
 
 <h1 align="center" style="color:#f7ae00;">Hi 👋, I'm Zobaidul Kazi</h1>
 <h3 style="color:#00d4ff; padding: 50px; font-size:30px;"> 
-I am a full-stack developer who can help you build and maintain both the front-end and back-end of a website,
+I am a full-stack JavaScript Developer..
 </h3>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
