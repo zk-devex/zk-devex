@@ -5,7 +5,7 @@
 
 <h1 align="center" style="color:#f7ae00;">Hi 👋, I'm Zobaidul Kazi</h1>
 <h3 style="color:#00d4ff; padding: 50px; font-size:30px;"> 
-I am a full-stack developer who can help you build and maintain both the front-end and back-end of a website,
+I am a full-stack JavaScript Developer
 </h3>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -18,15 +18,6 @@ I am a full-stack developer who can help you build and maintain both the front-e
 <a href="https://www.linkedin.com/in/zobaidulkazi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 <a href="https://github.com/zobaidulkazi" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 </div>
-
-
-
-<br />
-<br />
-
-
-
-<br />
 
 
 <h3 align="left">Stars</h3>
